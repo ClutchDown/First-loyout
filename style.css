@@ -1,0 +1,62 @@
+body{
+	
+	
+}
+.header {
+	background-color: #061e37;
+background-image: linear-gradient(-53.0deg, #00b8d4 -11%, #1de9b6 111%)
+	
+}
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	
+}
+.navigation__name {
+	display: flex;
+	
+}
+.navigation-logo {
+	border: 2px solid;
+	
+}
+.navigation-text {
+	border: 2px solid;
+	padding-left: 12px;
+}
+.dart {
+	
+}
+.sm {
+}
+.navigation__menu > ul{
+	display: flex;
+	width: 700px;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.navigation__sign-up {
+}
+.sign-up {
+}
+.main-content {
+}
+.main-content__left {
+}
+.main-content__left-text {
+}
+.lorem {
+}
+.lorem2 {
+}
+.main-content__left-buttons {
+}
+.first {
+}
+.second {
+}
+.main-content__right {
+}
+.backgr {
+}
