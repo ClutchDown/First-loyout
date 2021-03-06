@@ -2,15 +2,25 @@ body{
 	
 	
 }
+p{
+	margin: 0;
+	padding: 0;
+}
 .header {
-	background-color: #061e37;
-background-image: linear-gradient(-53.0deg, #00b8d4 -11%, #1de9b6 111%)
+ background-color: #061e37;
+background-image: linear-gradient(-53.0deg, #00b8d4 -11%, #1de9b6 111%);
+padding: 50px 80px 0 80px;
+height: 700px;
+opacity: 0.9;
+
+
 	
 }
 .navigation {
-	display: flex;
-	justify-content: space-between;
-	padding: 10px;
+	margin-bottom: 170px;
+display: flex;
+justify-content: space-between;
+padding: 10px;
 	
 }
 .navigation__name {
@@ -18,37 +28,89 @@ background-image: linear-gradient(-53.0deg, #00b8d4 -11%, #1de9b6 111%)
 	
 }
 .navigation-logo {
-	border: 2px solid;
 	
 }
 .navigation-text {
-	border: 2px solid;
-	padding-left: 12px;
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+line-height: 15px;
+font-weight: 400;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+padding-left: 12px;
 }
 .dart {
+margin: 0;
 	
 }
 .sm {
+margin: 0;
+	
 }
 .navigation__menu > ul{
-	display: flex;
-	width: 700px;
-	justify-content: space-between;
-	list-style-type: none;
+display: flex;
+width: 700px;
+justify-content: space-between;
+list-style-type: none;
 }
 .navigation__sign-up {
+width: 80px;
+height: 25px;
+border: 1px solid #ffffff;
+border-radius: 2px;
+}
+.navigation__menu{
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+font-weight: 600;
+color: #ffffff;
+text-align: center;
+}
+ul > li:nth-child(2){
+	color: #061e37;
+
 }
 .sign-up {
+display: block;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+font-size: 12px;
+line-height: 25px;
+font-weight: 400;
+color: #ffffff;
+text-decoration: none;
+
+
 }
 .main-content {
+	display: flex;
+	align-items: flex-start;
+	padding: 0 80px 0 80px;
+	border: 2px black solid;
+	justify-content: space-around;
+	
 }
 .main-content__left {
+
 }
 .main-content__left-text {
+		
 }
 .lorem {
+font-family: 'Raleway';
+font-size: 55px;
+line-height: 65px;
+font-weight: 700;
+text-transform: uppercase;
+color: #ffffff;
 }
 .lorem2 {
+	font-family: Raleway;
+font-size: 18px;
+line-height: 35px;
+font-weight: 400;
+color: #ffffff;
 }
 .main-content__left-buttons {
 }
