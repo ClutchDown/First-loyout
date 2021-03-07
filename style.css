@@ -86,7 +86,7 @@ text-decoration: none;
 	display: flex;
 	align-items: flex-start;
 	
-	border: 2px black solid;
+	
 	justify-content: space-between;
 	
 }
@@ -167,12 +167,41 @@ border-radius: 5px;
 .main-content__right {
 	opacity: 0.5;
 	
+
+
+	
 }
 .backgr {
 z-index: 0;
 background-image: url(img\rounded_rectangle_2_copy_29.png);
-width: 600px;
-height: 320px;
-border: 1px solid #061e37;
-border-radius: 5px;
 }
+
+.section-first {
+}
+.head-content {
+}
+.head-content1 {
+}
+.head-content2 {
+}
+.head-content3 {
+}
+.main-content__calendar {
+}
+.title {
+}
+.title-content {
+}
+.main-content__people {
+}
+.main-content__worker {
+}
+.bottom {
+}
+.get {
+}
+.started {
+}
+.bottom-content {
+}
+
