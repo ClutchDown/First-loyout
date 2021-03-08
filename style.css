@@ -1,4 +1,10 @@
 body{
+	display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main{
+	flex: 1;
 }
 p{
 margin: 0;
@@ -256,4 +262,54 @@ svg{
 .main-content__calendar > svg{
 text-align: center;
 }
+footer{
+	background-color: #061e37;
+}
+.footer {
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	
+}
+.footer-navigation__name {
+	display: flex;
+}
+.footer-navigation__logo {
+	width: 30px;
+height: 30px;
 
+
+}
+.footer-navigation__text {
+font-family: 'Raleway', sans-serif;
+font-size: 15px;
+line-height: 15px;
+font-weight: 400;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 800;
+padding-left: 12px;
+}
+.dart {
+}
+.sm {
+}
+.footer-navigation__menu {
+	
+}
+.footer-menu__content {
+	display: flex;
+	color: white;
+}
+.footer-content__bottom {
+}
+.footer-content__bottom-left {
+}
+.footer-content__bottom-right {
+}
+.bottom-links {
+}
+.links {
+	
+}
