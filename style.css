@@ -62,8 +62,9 @@ font-weight: 600;
 color: #ffffff;
 text-align: center;
 }
-.menu-content > li:nth-child(2){
-color: #061e37;
+.menu-content > li > a{
+text-decoration: none;
+color: white;
 }
 .sign-up {
 display: block;
@@ -288,6 +289,14 @@ line-height: 25px;
 font-weight: 600;
 color: #ffffff;
 }
+.footer-menu__content > li > a{
+text-decoration: none;
+font-family: Raleway;
+font-size: 15px;
+line-height: 25px;
+font-weight: 600;
+color: #ffffff;
+}
 .footer-content__bottom {
 display: flex;
 justify-content: space-between;
@@ -306,6 +315,10 @@ color: #ffffff;
 display: flex;
 justify-content: space-between;
 width: 320px;
+}
+.footer-content__bottom-left1 > li > a{
+	text-decoration: none;
+	color: gray;
 }
 .bottom-links > img {
 width: 20px;
